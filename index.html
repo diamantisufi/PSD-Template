@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Cuda Single Page Portfolio
+    </title>
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <link type="text/css" rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="style/queries.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="first-section" id="hi">
+        <div class="topnav">
+            <div class="text-container">
+                <div class="sticky">
+                    <img src="images/cuda.png" class="logo-img" alt="logo"></li>
+                    <ul id="myLinks">
+
+                        <li class="home"><a href="#hi" id="homebtn" onclick="background()">HOME</a></li>
+                        <li class="about" style="padding-left: 25px;"><a href="#services">ABOUT</a></li>
+                        <li id="abc"><a href="#work">WORK</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                    <a href="#" class="icon" id="burger-icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>
+                    <!-- </div> -->
+
+
+                </div>
+
+                <!-- hamburger-icon -->
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myLinks");
+                        if (x.style.display === "flex") {
+                            x.style.display = "none";
+                        } else {
+                            x.style.display = "flex";
+                        }
+                    }
+                </script>
+
+                <!-- // var y = document.getElementById("abc"); // y.onclick = function() { // console.log('click just happened'); // if (y.active) { // y.style.backgroundColor = "red"; // } // } -->
+
+            </div>
+            <h2>Hi there! we are the new kids on the block <br>and we build awesome websides and mobile apps</h2>
+            <div class="button-container">
+                <button>WORK WITH US!</button>
+            </div>
+
+        </div>
+        <!-- end of topnav -->
+    </section>
+    <!-- end of the first section -->
+
+
+    <section id="services" class="second-section">
+        <div class="second-text-container">
+            <h1>SERVICES WE PROVIDE</h1>
+            <div class="line"></div>
+            <p> We are working woth both individuals and businesses from all over the globe <br> to create awesome websites and applications.</p>
+        </div>
+
+        <div class="logos-container">
+            <div class="logos">
+                <img src="images/flag.png" alt="">
+                <h3>BRANDING</h3>
+                <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="logos">
+                <img src="images/pen.png" alt="">
+                <h3>DESIGN</h3>
+                <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="logos">
+                <img src="images/settings.png" alt="">
+                <h3>DEVELOPMENT</h3>
+                <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="logos">
+                <!-- <i class="fa fa-rocket" style="font-size:70px;"></i> -->
+                <img src="images/rocket.png" alt="">
+                <h3>ROCKET SCIENCE</h3>
+                <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+    <!-- end of second section -->
+
+
+    <section class="third-section">
+        <div class="third-text-container">
+            <h1>MEET OUR BEAUTIFUL TEAM</h1>
+            <div class="line"></div>
+            <p>We are a small team of designers and developers, who help brands with big ideas</p>
+        </div>
+
+        <div class="avatar-container">
+            <div class="first-avatar">
+                <img class="first-avatar-img" src="images/gray.png" alt="first">
+                <h4>ANNE HATHAWAY</h4>
+                <p style="color: #30bae7;">CEO / Marketing Guru></p>
+                <p class="description">Duis aute inure dolor in<br> voluptate velit esee <br>Excepteur sint occaecat
+                    <br>diam proident></p>
+                <div class="contact-buttons">
+                    <!-- <a href="" style="padding-right: 10px;"><i class="fa fa-facebook"></i></a> -->
+                    <a href=""><img class="contact facebook" src="images/facebook.png" alt=""></a>
+                    <a href=""><img class="contact in" src="images/In.png" alt=""></a>
+                    <a href=""><img class="contact witter" src="images/Twitter.png" alt=""></a>
+                    <a href=""><img class="contact mail" src="images/Mail.png" alt=""></a>
+                </div>
+
+            </div>
+            <div class="second-avatar">
+                <img class="second-avatar-img" src="images/gray.png" alt="first">
+                <h4>KATE UPTON</h4>
+                <p style="color:#30bae7;">Creative Director</p>
+                <p class="description">Duis aute inure dolor in<br> voluptate velit esee <br>Excepteur sint occaecat
+                    <br>diam proident></p>
+                <div class="contact-buttons">
+                    <a href=""><img class="contact in" src="images/In.png" alt=""></a>
+                    <a href=""><img class="contact witter" src="images/Twitter.png" alt=""></a>
+                    <a href=""><img class="contact mail" src="images/Mail.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="third-avatar">
+                <img class="third-avatar-img" src="images/gray.png" alt="first">
+                <h4>OLIVIA WILDE</h4>
+                <p style="color:#30bae7;">Lead Designer</p>
+                <p class="description">Duis aute inure dolor in in<br> voluptate velit esee <br>Excepteur sint occaecat
+                    <br>diam proident></p>
+                <div class="contact-buttons">
+                    <a href="facebook.com"><img class="contact facebook" src="images/facebook.png" alt=""></a>
+                    <a href=""><img class="contact in" src="images/In.png" alt=""></a>
+                    <a href=""><img class="contact witter" src="images/Twitter.png" alt=""></a>
+                    <a href=""><img class="contact mail" src="images/Mail.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="fourth-avatar">
+                <img class="fourth-avatar-img" src="images/gray.png" alt="first">
+                <h4>ASHLEY GREEN</h4>
+                <p style="color:#30bae7;">SEO/Developer</p>
+                <p class="description">Duis aute inure dolor in in<br> voluptate velit esee <br>Excepteur sint occaecat
+                    <br>diam proident></p>
+                <div class="contact-buttons">
+                    <a href=""><img class="contact facebook" src="images/facebook.png" alt=""></a>
+                    <a href=""><img class="contact twitter" src="images/Twitter.png" alt=""></a>
+                    <a href=""><img class="contact mail" src="images/Mail.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="fourth-section">
+        <div class="fourth-section-text-container">
+            <h1>WE GOT SKILLS!</h1>
+            <div class="line"></div>
+            <p class="fourth-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Inventore, harum Inventore, harum.</p>
+        </div>
+
+
+        <div class="percentage-container">
+            <div class="ninety">
+                <img src="images/90.png" alt="">
+                <p class="info">WEB DESIGN</p>
+            </div>
+            <div class="seventy-five">
+                <img src="images/75.png" alt="">
+                <p class="info">HTML/CSS</p>
+            </div>
+            <div class="seventy">
+                <img src="images/70.png" alt="">
+                <p class="info">GRAPHIC DESIGN</p>
+            </div>
+            <div class="eighty-five">
+                <img src="images/85.png" alt="">
+                <p class="info">UI / UX</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="work" class="portfolio-section">
+
+        <div class="portfolio-text-container">
+            <h1>OUR PORTFOLIO!</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Inventore, harum Inventore, harum.</p>
+        </div>
+
+        <div class="buttons-container">
+            <button>ALL</button>
+            <button>WEB</button>
+            <button>APPS</button>
+            <button>ICONS</button>
+        </div>
+
+        <div class="laptop-images-container">
+            <div class="second-laptop">
+                <img src="images/first.png" alt="">
+                <p>ISOMETRIC PERSPECTIVE MOCK-UP</p>
+            </div>
+            <div class="first-laptop">
+                <img src="images/second.png" alt="">
+                <p>TIME ZONE APP UI</p>
+            </div>
+        </div>
+
+
+        <div class="laptop-images-container">
+            <div class="third-laptop">
+                <img src="images/third.png" alt="">
+                <p>VIRO MEDIA PLAYERS UI</p>
+            </div>
+            <div class="fourth-laptop">
+                <img src="images/fourth.png" alt="">
+                <p>BLOG/ MAGAZINE FLAT UI KIT</p>
+            </div>
+        </div>
+
+
+        <div class="load-projects-button">
+            <button>LOAD MORE PROJECTS</button>
+        </div>
+
+    </section>
+
+
+    <section id="blog" class="feedback-section">
+        <div class="feedback-container">
+            <h1>WHAT PEOPLE SAY ABOUT US</h1>
+            <div class="line"></div>
+            <p>Our clients love us!</p>
+        </div>
+
+        <div class="feedback-img-container">
+            <img src="gray.png" alt="">
+            <div class="texts">
+                <p><i>"Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet <br>consectetur adi"</i></p><br>
+                <h2>CHANEL IMAN</h2>
+                <p style="color: orange;">CEO of Pinterest</p>
+            </div>
+
+            <img src="gray.png" alt="">
+            <div class="texts">
+                <p><i>"Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet <br>consectetur adi"</i></p><br>
+                <h2>ADRIANA LIMA</h2>
+                <p style="color: orange;">Founder of Instagram</p>
+            </div>
+        </div>
+
+        <div class="feedback-img-container">
+            <img src="gray.png" alt="">
+            <div class="texts">
+                <p><i>"Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet <br>consectetur adi"</i></p><br>
+                <h2>ANNE HATHAWAY</h2>
+                <p style="color: orange;">Lead Designer at Behance</p>
+            </div>
+
+            <img src="gray.png" alt="">
+            <div class="texts">
+                <p><i>"Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet <br>consectetur adi"</i></p><br>
+                <h2>EMMA STONE</h2>
+                <p style="color: orange;">Co-founder at Shazam</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="form-controls">
+        <div class="forms-text-container">
+            <h1>GET IN TOUCH</h1>
+            <div class="line"></div>
+            <p>1600 Pennsylvania Ave NW, WAshington, DC 20500, United States of America. Tel(202) 456-111</p>
+        </div>
+
+
+        <div class="forms-container">
+            <form action="/action_page.php" class="name-lastname">
+                <input type="text" class="firstname" placeholder="Your Name">
+                <input type="email " class="email " placeholder="Your Email ">
+                <!-- <input type="submit " value="Submit "> -->
+            </form>
+        </div>
+
+        <form action="/action_page.php " class="textarea-form ">
+            <textarea name="message " rows="10 " cols="30 " placeholder="Your Message "></textarea>
+            <br>
+
+        </form>
+        </div>
+
+        <div class="message-button">
+            <button type="submit" class="submit-button">SEND MESSAGE</button>
+            <!-- <input type="submit "> -->
+        </div>
+    </section>
+
+    <footer class="quick-links-box ">
+        <div class="links-container ">
+            <nav>
+                <ul>
+                    <li><a href="www.facebook.com ">Facebook</a></li>
+                    <li><a href="www.twitter.com ">Twitter</a></li>
+                    <li><a href="www.google.com ">Google+</a></li>
+                    <li><a href="www.linkedin.com ">Linkedin</a></li>
+                    <li><a href="www.behance.com ">Behance</a></li>
+                    <li><a href="www.dribble.com ">Dribble</a></li>
+                    <li><a href="www.github.com ">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
